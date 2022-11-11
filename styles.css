@@ -1,6 +1,14 @@
 
 .html{
     font-family:"Poppins", sans-serif;
+    
+}
+
+.popup{
+    width:500px;
+    height:500px;
+    background-color: grey;
+    
 }
 
 .navbar-brand{
@@ -9,7 +17,24 @@
     margin-left:225px;
 }
 
+.open-popup{
+    visibility:visible;
+    
+}
 
+.overlay{
+    position: absolute;
+    z-index: 10;
+    
+  }
+
+.close-popup{
+    visibility:hidden;
+}
+
+.open-popup{
+    visibility:visible;
+}
 
 .navbar-nav{
     
@@ -20,6 +45,14 @@
     font-weight: bold;
     font-size:25px;
     margin-right:30px;
+}
+
+.nav-link.active-1{
+    color:rgb(25,114,120);
+    font-weight:bold;
+    text-decoration:underline;
+    text-underline-offset: 40%;
+    
 }
 
 
@@ -41,6 +74,7 @@
     margin-left:225px;
     margin-right:225px;
     min-width:800px;
+    margin-bottom:100px;
     
     
 }
@@ -90,6 +124,16 @@
     color:black;
 }
 
+.disclaimer{
+    font-size:16px;
+    color:grey;
+    font-style:italic;
+    margin-top:150px;
+    margin-right:100px;
+    margin-left:100px;
+    text-align:center;
+}
+
 /* portfolio page */
 
 .main-portfolio{
@@ -107,7 +151,8 @@
 .picture-row{
     display:flex;
     margin:auto;
-    margin-top:50px;
+    margin-top:75px;
+    
     
 }
 
@@ -134,6 +179,7 @@
     display:flex;
     margin:auto;
     margin-top:15px;
+    text-align:center;
     
 }
 
@@ -160,18 +206,19 @@
     margin-right:75px;
 }
 
+#text-container-2 img{
+    width:600px;
+}
+
 
 
 .about-text{
     text-align:center;
-    
-
-    
-    
-    
+   
 }
 
 .about-description{
+    margin-top:20px;
     
     
 }
